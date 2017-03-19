@@ -1,0 +1,12 @@
+DIR > LPT1
+
+a.txt > LPT1 (Not recognize command)
+
+print a.txt > LPT1 (PRINT not stop print a.txt )
+
+print c:\sam_r\a.txt /c /d:lpt1 (Show non stop in CMD) 
+print c:\sam_r\a.txt /c /d:lpt3 (Show non stop in CMD) 
+print /d:LPT1 a.txt (Show non stop in CMD) 
+print /d:LPT3 a.txt  (Show non stop in CMD) 
+
+copy a.txt lpt1 (ONLY THIS WORK)
